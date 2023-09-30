@@ -5,7 +5,7 @@ for row in range(0,6):
         if row==0 or row==5:
            print("*",end="")
         elif row==i and col==j:
-            print("*"end="")
+            print("*",end="")
             i=i+1
             j=j-1
         else:
